@@ -56,7 +56,7 @@ p {
   display: block;
   font-size: 1rem;
   font-weight: 800;
-  padding-bottom:.5rem;
+  padding-bottom: .5rem;
 
 }
 
@@ -72,7 +72,7 @@ p {
   font-size: 1rem;
   text-transform: none;
   font-weight: 300;
-  margin-top:.5rem;
+  margin-top: .5rem;
 }
 
 .bg-faded {
@@ -102,10 +102,12 @@ p {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
   }
+
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: rgba(255, 255, 255, 0.4);
     text-decoration: underline;
   }
+
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
     color: #ffffff;
     text-decoration: underline;
@@ -130,6 +132,7 @@ p {
     width: 75%;
     float: left;
   }
+
   .intro .intro-text {
     left: 600;
     width: 60%;
@@ -138,6 +141,7 @@ p {
     color: cornsilk;
     position: absolute;
   }
+
   .intro .intro-text .intro-button {
     width: 100%;
     left: 0;
@@ -189,6 +193,7 @@ p {
     position: relative;
     z-index: 0;
   }
+
   .about-heading .about-heading-content {
     margin-top: -5rem;
     position: relative;
@@ -202,11 +207,13 @@ p {
     z-index: 1;
     margin-bottom: -3rem;
   }
+
   .product-item .product-item-img {
     position: relative;
     z-index: 0;
     max-width: 60vw;
   }
+
   .product-item .product-item-description {
     position: relative;
     z-index: 1;
@@ -229,7 +236,7 @@ p {
 }
 
 .footer {
-   background-color: rgba(24, 64, 8, 0.8);
+  background-color: rgba(24, 64, 8, 0.8);
 }
 
 
@@ -244,36 +251,45 @@ p {
   font-weight: 100 !important;
 }
 
-.mbtm{
+.mbtm {
   padding-top: 5rem;
 }
 
-.mbt{
+.mbt {
   padding-top: 2rem;
 }
 
-.mbt1{
+.mbt1 {
   padding-top: 1.25rem;
 }
 
-a.link{
+a.link {
   color: rgba(255, 255, 255, 0.7);
 }
 
-a.link:hover{
+a.link:hover {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.4);
 }
 
-.section-content{
+.section-content {
   font-family: 'Lora' !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 28px !important;
 }
 
-ul.errorlist{
+ul.errorlist {
   padding-top: .75rem;
   font-style: italic;
   color: red;
+}
+
+.linksCategorias {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.linksCategorias:hover {
+  text-decoration: none;
 }
