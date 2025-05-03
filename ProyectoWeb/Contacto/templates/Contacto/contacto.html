@@ -6,10 +6,14 @@
 
 {% block content %}
 
-<div>
-  <p style="color:white;">
-    {{miFormulario}}
-  </p>
+<div class="contenedorFormulario">
+  <form action="" method="POST" style="text-align: center;">
+    {% csrf_token %}
+    <table style="color:white; margin:20px auto">
+      {{miFormulario.as_table}}
+    </table>
+    <input type="submit" value="Enviar" style="width:150px";>
+  </form>
 </div>
 
 {% endblock %}
