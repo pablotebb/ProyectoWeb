@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'Tienda',
     'Carro',
     'Autenticacion',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -143,3 +144,5 @@ EMAIL_HOST_USER = "[RELLENAR]"
 EMAIL_HOST_PASSWORD = "[RELLENAR]"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
