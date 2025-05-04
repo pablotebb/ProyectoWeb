@@ -8,7 +8,11 @@
 <div class="container">
   <div style="float:right;">
     <div style="color:white;">
-      {% include "Carro/widget.html" %}
+      {% if request.user.is_authenticated %}
+        {% include "Carro/widget.html" %}
+      {% else %}
+        <div class="alert alert-danger text-center">Login para ver carro</div> 
+      {% endif %}
     </div>
   </div>
 
